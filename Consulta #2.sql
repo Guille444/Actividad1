@@ -16,7 +16,7 @@ CONSTRAINT fk_cargo_empleado
 FOREIGN KEY (id_cargo)
 REFERENCES tbCargos (id_cargo),
 salario DECIMAL(9), 
-fecha_inico_emoresa DATE
+fecha_inico_empresa DATE
 );
 
 CREATE TABLE tbDepartamentos(
